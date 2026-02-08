@@ -13,17 +13,15 @@ class SimplePrinter implements Document {
         // Print the document
     }
 
-@Override
-public void scan() {
-// Not applicable for
-SimplePrinter
-}
+    @Override
+    public void scan() {
+        // Not applicable for SimplePrinter
+    }
 
-@Override
-public void fax() {
-// Not applicable for
-SimplePrinter
-}
+    @Override
+    public void fax() {
+        // Not applicable for SimplePrinter
+    }
 }
 
 class Photocopier implements Document {

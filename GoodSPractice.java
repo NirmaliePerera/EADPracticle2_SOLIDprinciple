@@ -3,14 +3,12 @@ class GoodSPractice {
     public void saveToDatabase(Customer customer) {
         // Code to save customer data to the database
     }
-
 }
 
 class EmailSender {
     public void sendEmailNotification(Customer customer) {
         // Code to send email notification to the customer
     }
-
 }
 
 class Customer {
